@@ -17,7 +17,7 @@ def main():
         if extart_types:
             extracted_indicators = filter_types(extracted_indicators, extart_types)
         demisto.setContext(args.get('context_path', 'ExtractedIndicators'), extracted_indicators)
-        demisto.results(extracted_indicators)
+        # demisto.results(extracted_indicators)
     except Exception as error:
         return_error(str(error), error)
 

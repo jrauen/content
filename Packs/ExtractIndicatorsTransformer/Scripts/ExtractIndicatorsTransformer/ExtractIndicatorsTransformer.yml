@@ -14,7 +14,7 @@ name: ExtractIndicatorsTransformer
 script: '-'
 system: false
 tags:
-- transformer
+# - transformer
 - Utility
 timeout: '0'
 type: python
